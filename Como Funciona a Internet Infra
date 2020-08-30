@@ -1,0 +1,15 @@
+COMO FUNCIONA A INTERNET INFRAESTRUTURA 
+Vamos começar com uma situação hipotetica inicial:
+Imagine um COMPUTADOR A quer conversar com o COMPUTADOR B.
+Essa comunicação pode ser simples se os computadores estiverem perto,voce liga eles a mesma rede local e a transmissam é realizada.Mas se eles estiverem longe um do outro precisaremos de um outro meio de comunicação.
+Como voce deve saber compuatdores são dispositivos digitais,logo funcionam com um sistema binario de informação, ou seja ( 0 e 1),essas ondas de zeros e uns são representadas por ondas de sinais digitais,podemos utilizar o telefone para usar o meio de comunicação para longa distancia para fazer esta comuniação,mas tambem antenas parabolicas,e radios .
+Idependente do metodo de comunicação utilizado elas não usam os sinais digitais para se comunicarem  sim as ondas senoidais ou sinais analogicos,a solução é usar um aparelho para transformar as ondas digitais do compuatdor para sinal analogico,conhecido como MODULAÇÃO,e tambem ao receber estes sinais ele transforma o sinal analógico e transforma para sinal digital conhecido como DEMUDULAÇÃO,o noe do aparelho que faz este processo é o MODEM.
+Fazendo este processo o COMPTADOR A consegue falar com o COMPUADOR B.Vamos imaginar entao, que o COMPTADOR B tem uma arquivo que o COMPTADOR A precisa, a transmissaõ de dados não feita de uma só ves,através do protocologos da internet esses arquivos serão quebrados em pequenos pacotes e datas gramas,esses serao enviados um cada vez ,até por caminhos diferentes ,chegando ate o destino, e chegando a local os protocolos tambem são responsaveis por reorganizar este pacotes e gerar novamente o arquivo original. 
+
+Mas coo o COMPTADOR A sabe chegar ao COMPUTADORB ?
+Quando voce está  em casa e vai se comunicar com a internet,o seu MODEM se comunica diretamente com o os Modens do seu provedor de acesso,o provedor de acesso e uma empresa,como o nome diz, vai te dar acesso a internet.
+Quando voce se conecta a internet o seu computador recebe uma identificação,esta identificação é chamada de IP,é um numero formado por quatro octetos ou seja por quatro partes de numeros.Isto contece para qualquer dispositivo que se conecta a internet,tanto computadores de mesa ou de grandes empresas ou  poderosos servidores da internet. Esses servidores tem IPs assim como os seus computador que voce tem em casa.
+Vamos imaginar entao,que voce abra o seu navegador em casa com site de um curso online,como vimos os sites estão armazenados em servidores,e como saber aonde estão,se eles não tem e sim numeros.Para isto a INFRAESTRUTURA da internet reverva uma grande supresa ,servidores especiais chamados DNS( SERVIDORES DE NOME DE DOMINIO )sao responsaveis por resolver este problema,por exemplo:
+O site = cursoonline.com.br 
+O endereço tem o final ( .br ) ele ja vai saber que o site esta em um servidor do brasil .
+ou seja o COMPUTADOR A seria o seu computador eo COMPUTADOR B seria o computador do servidor e voce  pode receber ou enviar dados de um para o outro .
