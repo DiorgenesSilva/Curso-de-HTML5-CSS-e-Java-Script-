@@ -1,0 +1,16 @@
+Curso de HTML5 - 04 - Primeiro Exemplo em HTML5 -
+Oque são marcas em HTML Ou Tags ? 
+Marcas HTML ou Tags é tudo que voce escrever entre o sinal de (MAIOR  > ,  o sinal de MENOR < ). 
+O exemplo Marca ou tag HTML = <html>
+A grande maioria das Tags HTML tem abertura e   fechamentos e se usa a (/) ou = </html>.
+Ou seja tudo que estiver escrito em <html> e </html> sera considerado um documento HTML.  
+Algumas  Tags ou Marcas não tem fechamentos .
+Na versão nova do HTML5,podemos fazer duas coisas muito importantes.
+Primeiro dizer para o navegador que é um documento HTML5. 
+Isto é feito por uma Tag especial que é :  <!DOCTYPE HTML>
+
+Segunda é informar o idioma aonde ele vai ser escrito .
+Isto é feito dentro da Tag de abertura do HTML,colocando a Tag:  < html  lang="pt-br">  lembrando que ele deve ser aberto dentro da Tag de abertura.
+Isto ira facilitar muito o seu site na areas de busca de sites 
+
+Dentro do documento HTML,temos mais outras duas areas muito impostantes ,a area de cabeçario ,ou area comportamental que éa <head>. E a area <body> que é o corpo do site tudo que vai aparecer no site .
