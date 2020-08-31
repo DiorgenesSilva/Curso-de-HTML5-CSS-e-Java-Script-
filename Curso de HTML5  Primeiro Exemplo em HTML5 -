@@ -37,5 +37,7 @@ A solução é muito simples Utilizando a Tag =  < Meta > essa < Tag meta > pode
  Exemplo abaixo : 
   < meta charset= "UTF-8" > esta Tag meta nao tem o fechamento </meta>. Mas a comunidade esta utilizando a barra (/) na Tag de abertura ,
   Exemplo = < meta charset "UTF-8" />,Este novo modelo que foi aderido pela comunidade após o XHTML.
-   
+
+  Agora como mudar o texto que mostra pela URL,do navegador? Podemos fazer isto utilizando a Marca ou Tag <title> </title>
+
 
