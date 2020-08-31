@@ -38,6 +38,27 @@ A solução é muito simples Utilizando a Tag =  < Meta > essa < Tag meta > pode
   < meta charset= "UTF-8" > esta Tag meta nao tem o fechamento </meta>. Mas a comunidade esta utilizando a barra (/) na Tag de abertura ,
   Exemplo = < meta charset "UTF-8" />,Este novo modelo que foi aderido pela comunidade após o XHTML.
 
-  Agora como mudar o texto que mostra pela URL,do navegador? Podemos fazer isto utilizando a Marca ou Tag <title> </title>
+  Agora como mudar o texto que mostra pela URL,do navegador? Podemos fazer isto utilizando a Marca ou Tag <title> </title>.
+  Exemplo : <title> Curso de HTML5 </title>
 
+  Iremos usar também a Tag <h1></h1>,a Tag <h1> irá criar um  titulo na pagina do sie,<h1> significa hierarquias de titulo,veja abaixo .]
+  Exemplo:
+  <h1> E o primeiro Titulo </h1>
+  </h2> È o segundo titulo </h2> =  seguindo a ordem <h2> é um subtitulo de <h1>,segue o titulo na sequencia após <h3> é um subtitulo de <h2>.
+  Veja exemplo abaixo .
+  <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8"/>
+   <title>Curso de HTML5,CSS,JavaScript</title>
+     
+</head>
+<body>
+   <h1> Curso de  HTML5, CSS e JavaScript </h1> 
+   <h2> Aprenda On-Line em Casa </h2>
+
+</body>
+</html>
+
+Antigamente  
 
