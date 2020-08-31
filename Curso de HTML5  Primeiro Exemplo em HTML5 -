@@ -6,11 +6,36 @@ A grande maioria das Tags HTML tem abertura e   fechamentos e se usa a (/) ou = 
 Ou seja tudo que estiver escrito em <html> e </html> sera considerado um documento HTML.  
 Algumas  Tags ou Marcas não tem fechamentos .
 Na versão nova do HTML5,podemos fazer duas coisas muito importantes.
+
 Primeiro dizer para o navegador que é um documento HTML5. 
 Isto é feito por uma Tag especial que é :  <!DOCTYPE HTML>
 
 Segunda é informar o idioma aonde ele vai ser escrito .
-Isto é feito dentro da Tag de abertura do HTML,colocando a Tag:  < html  lang="pt-br">  lembrando que ele deve ser aberto dentro da Tag de abertura.
+Isto é feito dentro da Tag de abertura do HTML,colocando a Tag:  <lang="pt-br">  lembrando que ele deve ser aberto dentro da Tag de abertura.
 Isto ira facilitar muito o seu site na areas de busca de sites 
 
 Dentro do documento HTML,temos mais outras duas areas muito impostantes ,a area de cabeçario ,ou area comportamental que éa <head>. E a area <body> que é o corpo do site tudo que vai aparecer no site .
+
+Esta é estrutura basica de um site ,veja exemplo abaixo :
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ 
+</head>
+<body>
+    Curso de  HTML5, CSS e JavaScript 
+</body>
+</html>
+Estas funções já basta para criar uma pagina em um documento especifico para o programdor,e voce ja pode abri-los em um navegador de preferencia .
+
+Se voce abriu o navegador,percebeu que tivemos um pequeno problema,com acentuação de palavras, na letra (a) ele veio formatado de outra forma ('A).
+Editor =  "Olá, MUndo !"
+Navegador = "OlA,MUndo !"
+Isto acontece por conta da formatação,o procurando entender outro padrão, esta  utilizando o padrão americano,portanto nos estamos utilizando o padrão latino,este padrão é o  (UTF-8).
+A solução é muito simples Utilizando a Tag =  < Meta > essa < Tag meta > pode ser utilizada para varias coisas e umas delas é o < Charset >,no < Meta Charset >.
+< Charset > :>  Significa = Conjunto de Carateres. Nos vamos utilizar um conjunto de caracteres latino,que é o UTF-8 .
+ Exemplo abaixo : 
+  < meta charset= "UTF-8" > esta Tag meta nao tem o fechamento </meta>. Mas a comunidade esta utilizando a barra (/) na Tag de abertura ,
+  Exemplo = < meta charset "UTF-8" />,Este novo modelo que foi aderido pela comunidade após o XHTML.
+   
+
