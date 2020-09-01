@@ -43,8 +43,8 @@ A solução é muito simples Utilizando a Tag =  < Meta > essa < Tag meta > pode
 
   Iremos usar também a Tag <h1></h1>,a Tag <h1> irá criar um  titulo na pagina do sie,<h1> significa hierarquias de titulo,veja abaixo .]
   Exemplo:
-  <h1> E o primeiro Titulo </h1>
-  </h2> È o segundo titulo </h2> =  seguindo a ordem <h2> é um subtitulo de <h1>,segue o titulo na sequencia após <h3> é um subtitulo de <h2>.
+  <h1> E o primeiro Titulo </h1> = Entenda que <h1> não é letras grandes e sim hierarquia de  titulos.
+  </h2> È o segundo titulo </h2> =  seguindo a ordem <h2> é um subtitulo de <h1>,segue o titulo na sequencia após <h3> é um subtitulo de <h2>.Não significa que as letras do <h2> tambem são menores o programador pode editar tanto as fontes do <h1> como a do <h2>
   Veja exemplo abaixo .
   <!DOCTYPE html>
 <html lang="pt-br">
@@ -60,5 +60,43 @@ A solução é muito simples Utilizando a Tag =  < Meta > essa < Tag meta > pode
 </body>
 </html>
 
-Antigamente  
+Saiba mais !
+Antigamente,no HTML,voce tinha formatação pelo proprio HTML. Agora as formatações são feitas por folhas de estilo,ou seja CSS.Podem ser incluidas no documento  HTML5.
+Formatação tambem é uma configuração comportamental,logo é feito na area de cabeçario.
+Regras para utilizar formatação em CSS,no cabeçalho da pagina.
+Usas-se a Tag <Style> </style> = E tudo que estiver entre <style> e </style> será considerado como estilo  da pagina . Podemos utilizar por exemplo tudo que estiver em h1.
+h1 { 
+    h1 = Tudo que estiver entre as "chaves"  {}"
+ h1 = Sera a configuraçao de h1  
+ h1 =   e tudo que for formatado em CSS deve ser escrito em letra minuscula  
+    }
+Podemos mudar o tipo de fontes de  h1 ,que sera = h1{ font-family}
+O tamanho  que é : = h1 {  font - size } 
+Ea cor da fonte que é  = h1 { color } 
+podemos colocar sombras com { text- shadow }
+
+Apos algumas alterações ficara como o exemplo abaixo:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8"/>
+   <title>Curso de HTML5,CSS,JavaScript</title>
+   <style>
+        h1 {
+
+            font-family: Arial;
+            font-size: 30pt;
+            color: blue;
+            text-shadow:2px 7px 20px black;
+        }
+        
+            
+   </style>
+     
+</head>
+<body>
+   <h1> Curso de  HTML5, CSS e JavaScript </h1> 
+   
+</body>
+</html>
 
